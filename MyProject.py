@@ -7,9 +7,6 @@ while True:
 	print("chat with me with your requirements : "  , end='')
 	p = input()
 
-	# print(p)
-	# os.system(p)
-
 	if (("run" in p) or ("launch" in p) or ("execute" in p))  and (("chrome" in p) or ("browser" in p)):
 	  pyttsx3.speak("Thanks For Your Input")
 	  os.system("chrome")
